@@ -40,3 +40,5 @@ Demo program QueueWithIterator: this demo program has to test the correct functi
 Time comparison of the two queue variants: first a certain number (for example 10000) is inserted into the queue. This is followed by further operations (e.g., 1000000), randomly determining whether to insert or remove (about 50% each). The total time for all these further operations (not the initial inserts) is to be compared for both queue variants. Use System.currentTimeMillis (), which returns the current time as long in milliseconds.
 
 Good Luck!
+DeadLine: 11.06.2018 10:00 PM CET
+Facebook Group to Join with a chat: https://www.facebook.com/groups/343402949519624/
