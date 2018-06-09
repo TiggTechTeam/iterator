@@ -1,0 +1,15 @@
+public interface MyIterator<E> {
+//true if the iteration has more elements
+public boolean hasNext();
+
+//returns the next element in the interation – requires hasNext()!
+public E getNext();
+
+}
+
+
+//default constructor for creating an empty queue
+public Queue? () //? is a wildcard for second part of classname
+
+//inserts item at the end of the queue
+public void enqueue(E item)
