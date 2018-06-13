@@ -41,4 +41,4 @@ Time comparison of the two queue variants: first a certain number (for example 1
 
 Good Luck!
 DeadLine: 11.06.2018 10:00 PM CET
-Facebook Group to Join with a chat: https://www.facebook.com/groups/343402949519624/
+
