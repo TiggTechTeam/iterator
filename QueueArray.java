@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+
 import MyQueue.Node;
 public class QueueArray<E>{
 	// Sollte die Implementierung duch die Inneren Klasse erfolgt werden (sihe ganz Unten)
