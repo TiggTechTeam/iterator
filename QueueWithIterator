@@ -1,9 +1,38 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+
+ 
 
 public class QueueWithIterator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+		
+		QueueLinked <QueueLinked> Ql = new QueueLinked<QueueLinked>();
+		
+		Ql.add(new QueueArray ("Hana", 23));
+		Ql.add(new QueueLinked ("Kana", 54));
+		Ql.add(new QueueLinked ("Janek", 34));
+		Ql.add(new QueueLinked ("Kai", 34));
 
+			System.out.println(Ql.toString());
+			
+			Iterator<QueueLinked> itr = Ql.iterator();
+		
+			while(itr.hasNext()) {
+				QueueLinked s = itr.next();
+				System.out.print(s + "");
+				
+				if(s.age< 30) {
+					itr.remove();
+					
+				}
+			}
+			System.out.println();
+			System.out.println(Ql.toString());
+
+			
 	}
-
-}
+		
+	}
