@@ -1,3 +1,5 @@
+//Es ist hier geil!
+
 import java.util.LinkedList;
 
 public class QueueLinked<E>{
@@ -20,7 +22,7 @@ public class QueueLinked<E>{
 		    last.next = new Queue?<E> (item, null);
 	}
 
-
+		
 	//returns the head of the queue and deletes it from the queue;
 	//returns null if queue is empty
 	public E dequeue() {
